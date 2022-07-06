@@ -25,10 +25,7 @@ packages:
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
-  - luci-app-wireguard
-  - wireguard
   - luci-app-eqos
-  - wireguard-tools
   - luci
   - luci-base
   - luci-mod-rpc
@@ -64,6 +61,5 @@ diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
   CONFIG_PACKAGE_dnsmasq=n
-  CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_KERNEL_IPQ_MEM_PROFILE=0
