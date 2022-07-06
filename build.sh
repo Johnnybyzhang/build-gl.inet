@@ -28,7 +28,7 @@ cp -r custom/  $base/gl-infra-builder/feeds/custom/
 cp -r *.yml $base/gl-infra-builder/profiles
 cd $base/gl-infra-builder
 #setup
-python3 setup.py -c config-wlan-ap-5.4.yml
+python3 setup.py -c config-wlan-ap.yml
 
 cd wlan-ap/openwrt
 ./scripts/gen_config.py $profile glinet_depends
